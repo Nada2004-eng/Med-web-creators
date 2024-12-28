@@ -1,0 +1,89 @@
+body {
+    background-image: url("d:/Register/images/shopping-cart-with-pill-foils-copy-space_23-2148533453.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align:left;
+    margin-bottom: 20px ;
+    color:  rgb(10, 61, 132);
+    font-size: 50PX;  
+   }
+   .contact-section{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    color:rgb(10, 61, 132);
+}
+.contact-item{
+    margin: 1px;
+    text-emphasis: left;                       
+    font-size: 20px; 
+     text-align: left; 
+ }
+ .contact-item a {
+    color: rgb(10, 61, 132);
+    font-size: 20px;
+} 
+ .contact-item a :hover {
+    text-decoration: underline;
+} 
+.footer {
+    padding: 20px 0;
+    color: rgb(10, 61, 132);
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 600px;
+    max-height: 500px;
+    padding: 150px 100px;
+    
+}
+
+.footer-logo img {
+    width: 140px;
+    height: auto;
+    padding: 70;
+    
+ 
+}
+
+.footer-links {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: rgb(10, 61, 132);
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1px;
+    border-top: 1px solid #ccc;
+    padding-top: 1px;
+    color:  rgb(10, 61, 132);
+}

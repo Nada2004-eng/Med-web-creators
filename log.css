@@ -1,0 +1,138 @@
+body{
+    background-image:url("images/register.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* h1 {
+text-align: center;
+margin-bottom: 70px;
+margin-top: 70px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+color: rgb(36, 77, 108);
+} 
+
+.container{
+    margin: 600px ;
+    margin: 50px;
+    width: 50%;
+    padding: 20px;
+    border:none;
+    outline: none;     
+}
+.form-group {
+margin-bottom: 30px;
+label {
+display:inline-block;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: 18px;
+margin-bottom: 20px;
+font-size: 20px;
+font-weight:bolder;
+color: rgb(36, 77, 108);
+    }
+}
+
+input,textarea{
+width: 100%;
+padding:10px;
+border-radius: 50px;
+background:none;
+outline:  white   auto ;
+font-size: 15px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+input[type="checkbox"]{
+    width: 10px;
+    height: 10px;
+}
+button{
+cursor:pointer ;
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor:pointer ;
+    font-size: 20px;
+    color: rgb(36, 77, 108);
+    margin: 20px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+}
+.p{
+    color: rgb(36, 77, 108);
+
+
+
+} */
+.wrapper{
+    width: 570px;
+    height: 610px;
+    border: 3px solid rgba(255,255,255,.5);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper.form-box{
+    width: 100%;
+    padding: 40px;
+}
+ .form-box h2{
+    font-size: 50px;
+    color:rgb(36, 77, 108);
+    text-align: center;
+    margin-bottom: 70px;
+}
+.input-box{
+    width: 100;
+    height: 50px;
+    border-bottom: 3px solid rgb(68, 102, 128) ;
+    /* color: rgb(36, 77, 108); */
+    margin: 30px 0;
+}
+.input-box label{
+   top:50%;
+   left: 15px;
+   transform: translateY(-50%);
+   color:rgb(36,77, 108) ;
+   font-size: 30px;
+   font-weight: 700;
+}
+.input-box input{
+    width: 300px;
+    height: 30px;
+    background: transparent;
+    border:none;
+    outline: none; 
+    font-weight: 500;
+    font-size: 18px ;
+    color:rgb(36,77, 108);
+    
+}
+/* .input-box .icon{
+    position: absolute;
+    font-size: 12px;
+    color:rgba(0,0,0,.5) ;
+
+
+
+} */
+.remember-forget{
+    font-size: 20px;
+    color:rgb(36,77, 108);
+    margin: -10px  0 20px;
+    display: flex;
+    justify-content:space-between;
+    
+ }
